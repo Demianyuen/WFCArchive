@@ -24,10 +24,10 @@ export const RESOURCES: ResourceLink[] = [
   },
   {
     id: '4',
-    title: '宏福苑互助平台',
+    title: '宏福苑互助平台 by dragon_mexc,
     url: 'https://post.taipo-fire.org/',
     description: '宏福苑互助平台是全港最活躍災後互助平台，提供相關資訊發布及留言板',
-    tags: [ResourceTag.MEMORIAL]
+    tags: [ResourceTag.SUPPORT]
   },
   // --- 額外宏福苑相關紀念資源 ---
   {
