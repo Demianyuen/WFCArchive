@@ -3,7 +3,7 @@ import { ResourceLink, ResourceTag } from './types';
 export const RESOURCES: ResourceLink[] = [
   {
     id: '1',
-    title: '宏福苑紀錄庫',
+    title: '11.26 大埔宏福苑火災紀錄庫',
     url: 'https://adminlby.github.io/Hong-Kong-Fire-Documentary/',
     description: '相關紀錄及資料庫 by 女神',
     tags: [ResourceTag.DOCUMENTARY]
