@@ -99,7 +99,7 @@
       const RESOURCES = [
         {
           id: '1',
-          title: '宏福苑紀錄庫 (by 女神)',
+          title: '宏福苑紀錄庫 by 女神',
           url: 'https://adminlby.github.io/Hong-Kong-Fire-Documentary/',
           description: '相關紀錄及資料庫',
           tags: [ResourceTag.DOCUMENTARY]
@@ -125,7 +125,6 @@
           description: '宏福苑互助平台是全港最活躍災後互助平台，提供相關資訊發布及留言板',
           tags: [ResourceTag.SUPPORT]
         },
-        // --- 額外宏福苑相關紀念資源 ---
         {
           id: '11',
           title: '宏福苑紀念冊 by dragon_mexc',
@@ -140,7 +139,6 @@
           description: '永遠懷念 - 消防總隊目何偉豪',
           tags: [ResourceTag.MEMORIAL]
         },
-        // ---------------------------
         {
           id: '5',
           title: '宏福苑業主立案法團',
@@ -183,7 +181,6 @@
           description: '政府發布之相關資訊',
           tags: [ResourceTag.OFFICIAL]
         },
-        // --- 其他官方及參考資料 ---
         {
           id: '14',
           title: '建築物管理中央平台 (BMIS)',
@@ -258,10 +255,10 @@
             href={resource.url} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="group block bg-white p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-gray-200 transition-all duration-300"
+            className="group block bg-white p-4 sm:p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-gray-200 transition-all duration-300"
           >
             <div className="flex items-start justify-between">
-              <div className="flex-1">
+              <div className="flex-1 min-w-0">
                 <div className="flex flex-wrap gap-2 mb-3">
                   {resource.tags.map(tag => (
                     <TagBadge key={tag} tag={tag} />
@@ -270,11 +267,11 @@
                 <h3 className="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors flex items-center gap-2">
                   {resource.title}
                 </h3>
-                <p className="mt-2 text-sm text-gray-500 leading-relaxed">
+                <p className="mt-2 text-sm text-gray-500 leading-relaxed break-words">
                   {resource.description}
                 </p>
               </div>
-              <div className="ml-4 text-gray-300 group-hover:text-blue-500 transition-colors">
+              <div className="ml-4 text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0">
                 <Icons.ExternalLink size={20} />
               </div>
             </div>

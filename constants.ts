@@ -29,7 +29,6 @@ export const RESOURCES: ResourceLink[] = [
     description: '宏福苑互助平台是全港最活躍災後互助平台，提供相關資訊發布及留言板',
     tags: [ResourceTag.SUPPORT]
   },
-  // --- 額外宏福苑相關紀念資源 ---
   {
     id: '11',
     title: '宏福苑紀念冊 by dragon_mexc',
@@ -44,7 +43,6 @@ export const RESOURCES: ResourceLink[] = [
     description: '永遠懷念 - 消防總隊目何偉豪',
     tags: [ResourceTag.MEMORIAL]
   },
-  // ---------------------------
   {
     id: '5',
     title: '宏福苑業主立案法團',
@@ -87,7 +85,6 @@ export const RESOURCES: ResourceLink[] = [
     description: '政府發布之相關資訊',
     tags: [ResourceTag.OFFICIAL]
   },
-  // --- 其他官方及參考資料 ---
   {
     id: '14',
     title: '建築物管理中央平台 (BMIS)',

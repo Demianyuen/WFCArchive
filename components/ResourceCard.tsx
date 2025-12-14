@@ -13,10 +13,10 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource }) => {
       href={resource.url} 
       target="_blank" 
       rel="noopener noreferrer"
-      className="group block bg-white p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-gray-200 transition-all duration-300"
+      className="group block bg-white p-4 sm:p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-gray-200 transition-all duration-300"
     >
       <div className="flex items-start justify-between">
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <div className="flex flex-wrap gap-2 mb-3">
             {resource.tags.map(tag => (
               <TagBadge key={tag} tag={tag} />
@@ -25,11 +25,11 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource }) => {
           <h3 className="text-lg font-medium text-gray-900 group-hover:text-blue-600 transition-colors flex items-center gap-2">
             {resource.title}
           </h3>
-          <p className="mt-2 text-sm text-gray-500 leading-relaxed">
+          <p className="mt-2 text-sm text-gray-500 leading-relaxed break-words">
             {resource.description}
           </p>
         </div>
-        <div className="ml-4 text-gray-300 group-hover:text-blue-500 transition-colors">
+        <div className="ml-4 text-gray-300 group-hover:text-blue-500 transition-colors flex-shrink-0">
           <ExternalLink size={20} />
         </div>
       </div>
