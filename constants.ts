@@ -27,7 +27,7 @@ export const RESOURCES: ResourceLink[] = [
     title: '宏福苑互助平台',
     url: 'https://post.taipo-fire.org/',
     description: '宏福苑互助平台是全港最活躍災後互助平台 宏福苑互助平台相關資訊發布及留言板',
-    tags: [ResourceTag.MEMORIAL]
+    tags: [ResourceTag.SUPPORT]
   },
   {
     id: '5',
