@@ -24,7 +24,7 @@ export const RESOURCES: ResourceLink[] = [
   },
   {
     id: '4',
-    title: '宏福苑互助平台 by dragon_mexc,
+    title: '宏福苑互助平台 by dragon_mexc',
     url: 'https://post.taipo-fire.org/',
     description: '宏福苑互助平台是全港最活躍災後互助平台，提供相關資訊發布及留言板',
     tags: [ResourceTag.SUPPORT]
@@ -32,7 +32,7 @@ export const RESOURCES: ResourceLink[] = [
   // --- 額外宏福苑相關紀念資源 ---
   {
     id: '11',
-    title: '宏福苑紀念冊',
+    title: '宏福苑紀念冊 by dragon_mexc',
     url: 'https://rember.taipo-fire.org/',
     description: '大埔宏福苑火警網上紀念冊',
     tags: [ResourceTag.MEMORIAL]
